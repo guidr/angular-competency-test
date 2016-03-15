@@ -1,0 +1,15 @@
+{
+    // mongoose configuration
+    // @see http://mongoosejs.com/docs/connections.html
+    "mongodb" : {
+        "uri" : "mongodb://localhost:27017/angulartest",
+        "options" : {
+
+        }
+    },
+
+    // countries RESTFul API
+    "countriesAPI" : {
+        "endpoint" : "https://restcountries.eu/rest/v1/region/Europe"
+    }
+}
